@@ -5,40 +5,21 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowLeftLong } from "react-icons/fa6";
-
+import "./BannerArrows.css";
+import Container from './Container'
 const NextArrow = (props) => {
-  const {style, onClick } = props;
+  const { style, onClick } = props;
   return (
-    <div
-      style={{
-        ...style,
-        position: "absolute",
-        bottom: "-84px",
-        right: "460px",
-        zIndex: "99999",
-      }}
-      onClick={onClick}
-    >
+    <div style={{ ...style }} onClick={onClick} className="custom-next-arrow">
       <FaArrowRightLong className="w-[30px] h-[30px] border-[#8e8e8e] border rounded-full text-[12px] text-[#8e8e8e] p-1 " />
     </div>
   );
 };
-
 const PrevArrow = (props) => {
   const { style, onClick } = props;
   return (
-    <div
-    style={{
-      ...style,
-      position: "absolute",
-      bottom: "-84px",
-      left: "460px",
-      zIndex: "99999",
-      }}
-      onClick={onClick}
-    >
-      <FaArrowLeftLong className="w-[30px] h-[30px] border-[#8e8e8e] border rounded-full text-[12px] text-[#8e8e8e] p-1 "  />
-     
+    <div style={{ ...style }} onClick={onClick} className="custom-prev-arrow">
+      <FaArrowLeftLong className="w-[30px] h-[30px] border-[#8e8e8e] border rounded-full text-[12px] text-[#8e8e8e] p-1 " />
     </div>
   );
 };
@@ -59,8 +40,8 @@ const Banner = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: false,
+        },
       },
       {
         breakpoint: 769,
@@ -68,16 +49,17 @@ const Banner = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
-        }
+          dots: false,
+        },
       },
       {
         breakpoint: 430,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const slides = [
@@ -92,12 +74,33 @@ const Banner = () => {
   ];
 
   return (
-    <section className="mb-[100px] mt-10 px-2 lg:px-10">
+    <section className="mb-[140px] mt-10 px-2 lg:px-10">
       <Slider {...settings}>
         {slides.map((slide) => (
           <div key={slide.id}>{slide.content}</div>
         ))}
       </Slider>
+      <Container>
+        <div className="py-[18px] px-[30px] border-[#dedede] border rounded-full w-full md:w-[540px] mx-auto md:translate-y-[44px] hidden md:block ">
+          <ul className="flex items-center justify-between">
+            <li className="font-normal font-prompt italic text-[14px] text-black hover:text-main hover:underline">
+            Newest
+            </li>
+            <li className="font-normal font-prompt italic text-[14px] text-black hover:text-main hover:underline">
+            Trending
+            </li>
+            <li className="font-normal font-prompt italic text-[14px] text-black hover:text-main hover:underline">
+            Top View
+            </li>
+            <li className="font-normal font-prompt italic text-[14px] text-black hover:text-main hover:underline">
+            Top Like
+            </li>
+            <li className="font-normal font-prompt italic text-[14px] text-black hover:text-main hover:underline">
+            Recent
+            </li>
+          </ul>
+        </div>
+      </Container>
     </section>
   );
 };

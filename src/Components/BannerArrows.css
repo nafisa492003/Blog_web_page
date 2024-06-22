@@ -1,0 +1,41 @@
+.custom-next-arrow {
+    position: absolute;
+    bottom: -84px;
+    right: 460px;
+    z-index: 99999;
+  }
+  
+  .custom-prev-arrow {
+    position: absolute;
+    bottom: -84px;
+    left: 460px;
+    z-index: 99999;
+  }
+  
+  @media (max-width: 1024px) {
+    .custom-next-arrow {
+      right: 60px;
+    }
+    .custom-prev-arrow {
+      left: 60px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-next-arrow {
+      right: 40px;
+    }
+    .custom-prev-arrow {
+      left: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .custom-next-arrow {
+      right: 20px;
+    }
+    .custom-prev-arrow {
+      left: 20px;
+    }
+  }
+  
