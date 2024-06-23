@@ -32,7 +32,7 @@ const Banner_slid_pick = () => {
             <GoDotFill className='text-[12px] lg:text-[14px] text-main' />
             <h5 className='font-medium font-inter text-[12px] lg:text-[14px] text-[#101010] opacity-30 hover:text-black duration-150'>2.8k View</h5>
           </Flex>
-          <h1 className='font-semibold font-prompt text-[14px] lg:text-[24px] md:my-2 my-[25px] lg:my-[25px] mr-[50px]  md:mr-0'>
+          <h1 className='font-semibold font-prompt text-[14px] iphone_tab:text-[14px] iphone:text-[24px] lg:text-[24px] md:my-2 my-[25px] lg:my-[25px] mr-[50px]  md:mr-0'>
             Our Begin Now To Beingonan You Wokajon Beinghe.
           </h1>
           <Flex className='items-center lg:gap-[150px] gap-10'>

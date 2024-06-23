@@ -16,6 +16,10 @@ export default {
         hash: "#838383",
         secondary: "#e8e8e8",
       },
+      screens: {
+        'iphone': '370px',
+        'iphone_tab': '770px',
+      },
     },
   },
   plugins: [],
