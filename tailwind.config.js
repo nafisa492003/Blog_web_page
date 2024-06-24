@@ -20,6 +20,9 @@ export default {
         'iphone': '370px',
         'iphone_tab': '770px',
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, #101010, #101010, #101010)',
+      },
     },
   },
   plugins: [],

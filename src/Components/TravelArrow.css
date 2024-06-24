@@ -42,11 +42,11 @@
   
   @media (max-width: 480px) {
     .travel-next-arrow{
-        top: -126px;
+        top: -172px;
       right: 0px;
     }
     .travel-prev-arrow{
-        top: -126px;
-      left: 268px;
+        top: -172px;
+      left: 220px;
     }
   }
