@@ -1,11 +1,11 @@
-.next-arrow {
+.author-next-arrow {
     position: absolute;
     top: -70px;
     right: 0px;
     z-index: 99999;
   }
   
-  .prev-arrow {
+  .author-prev-arrow {
     position: absolute;
     top: -70px;
     left: 1052px;
@@ -18,33 +18,33 @@
     margin: 0 -10px; 
 }
   @media (max-width: 1024px) {
-    .next-arrow {
+    .author-next-arrow {
         top: -70px;
       right: 2px;
     }
-    .prev-arrow {
+    .author-prev-arrow {
         top: -70px;
       left: 672px;
     }
   }
   
   @media (max-width: 768px) {
-    .next-arrow {
+    .author-next-arrow {
         top: -70px;
       right: 2px;
     }
-    .prev-arrow {
+    .author-prev-arrow{
         top: -70px;
       left: 620px;
     }
   }
   
   @media (max-width: 480px) {
-    .next-arrow {
+    .author-next-arrow {
         top: -70px;
       right: 0px;
     }
-    .prev-arrow {
+    .author-prev-arrow{
         top: -70px;
       left: 220px;
     }

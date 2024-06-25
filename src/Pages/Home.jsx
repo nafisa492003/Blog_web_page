@@ -5,6 +5,9 @@ import Articals from '../Components/Articals'
 import Travel from '../Components/Travel'
 import Featured from '../Components/Featured'
 import FeaturedVideo from '../Components/FeaturedVideo'
+import OfferBanner from '../Components/OfferBanner'
+import Author from '../Components/Author'
+import BecomeAuther from '../Components/BecomeAuther'
 
 const Home = () => {
   return (
@@ -15,6 +18,10 @@ const Home = () => {
    <Travel/>
    <Featured/>
    <FeaturedVideo/>
+   <OfferBanner/>
+   <Author/>
+   <BecomeAuther/>
+  
     </>
   )
 }

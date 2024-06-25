@@ -301,7 +301,7 @@ const Travel = () => {
                 <Flex className={`items-center gap-10 group md:gap-[80px]`}>
                     <Flex className={`py-[10px] px-[24px] bg-secondary rounded-full items-center gap-2 group-hover:bg-main`}>
                     <SiInstagram className="text-[14px] text-black group-hover:text-white" />
-                    <h4 className="font-prompt font-normal text-[14px] text-black group-hover:text-white">Facebook</h4> 
+                    <h4 className="font-prompt font-normal text-[14px] text-black group-hover:text-white">Instagram</h4> 
                     </Flex>
                     <h4 className="font-prompt font-medium text-[14px] text-black group-hover:text-main">3.5K Like</h4>
                 </Flex>
