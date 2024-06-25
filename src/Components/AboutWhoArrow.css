@@ -1,0 +1,12 @@
+.aboutwho-next-arrow{
+    position: absolute;
+    z-index: 99999;
+    right: -10px;
+    bottom: 6px;
+}
+.aboutwho-prev-arrow{
+    position: absolute;
+    z-index: 99999;
+    bottom: 6px;
+    right: 30px;
+}

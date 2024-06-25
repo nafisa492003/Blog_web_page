@@ -1,0 +1,45 @@
+.about-next-arrow {
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    z-index: 99999;
+  }
+  
+  .about-prev-arrow {
+    position: absolute;
+    top: -70px;
+    left: 1052px;
+    z-index: 99999;
+  }
+  @media (max-width: 1024px) {
+    .about-next-arrow {
+        top: -70px;
+      right: 2px;
+    }
+    .about-prev-arrow {
+        top: -70px;
+      left: 672px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-next-arrow {
+        top: -70px;
+      right: 2px;
+    }
+    .about-prev-arrow {
+        top: -70px;
+      left: 620px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-next-arrow {
+        top: -70px;
+      right: 0px;
+    }
+    .about-prev-arrow {
+        top: -70px;
+      left: 220px;
+    }
+  }
