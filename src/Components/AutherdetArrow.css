@@ -1,0 +1,44 @@
+.autherdet-next-arrow {
+  position: absolute;
+  right: 100px;
+  bottom: -88px;
+  z-index: 99999;
+}
+.autherdet-prev-arrow {
+  position: absolute;
+  bottom: -88px;
+    left: 100px;
+    z-index: 99999;
+}
+@media (max-width: 1024px) {
+    .autherdet-next-arrow {
+      right: 100px;
+      bottom: -88px;
+    }
+    .autherdet-prev-arrow {
+      bottom: -88px;
+      left: 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .autherdet-next-arrow {
+      right: 100px;
+      bottom: -88px;
+    }
+    .autherdet-prev-arrow{
+      bottom: -88px;
+      left: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .autherdet-next-arrow {
+      right: 100px;
+  bottom: -135px;
+    }
+    .autherdet-prev-arrow{
+      bottom: -135px;
+    left: 100px;
+    }
+  }

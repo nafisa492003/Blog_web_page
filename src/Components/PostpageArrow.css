@@ -1,0 +1,45 @@
+.postpage-next-arrow {
+    position: absolute;
+    right: 100px;
+    bottom: -50px;
+    z-index: 99999;
+  }
+  .postpage-prev-arrow {
+    position: absolute;
+    bottom: -50px;
+      left: 100px;
+      z-index: 99999;
+  }
+  @media (max-width: 1024px) {
+      .postpage-next-arrow {
+        right: 100px;
+        bottom: -50px;
+      }
+      .postpage-prev-arrow {
+        bottom: -50px;
+        left: 100px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .postpage-next-arrow {
+        right: 100px;
+        bottom: -50px;
+      }
+      .postpage-prev-arrow{
+        bottom: -50px;
+        left: 100px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .postpage-next-arrow {
+        right: 55px;
+    bottom: -44px;
+      }
+      .postpage-prev-arrow{
+        bottom: -44px;
+      left: 55px;
+      }
+    }
+  

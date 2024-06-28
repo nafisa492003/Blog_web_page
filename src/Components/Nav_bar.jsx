@@ -22,10 +22,10 @@ const Nav_bar = () => {
         <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/'>Home</Link> </li>
         <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/about'>About</Link> </li>
         <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/'>Topic</Link> </li>
-        <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/'>Post</Link> </li>
-        <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/'>Feature</Link> </li>
-        <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/'>Pages</Link> </li>
-        <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/'>Contact</Link> </li> 
+        <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/post'>Post</Link> </li>
+        <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/author'>Author</Link> </li>
+        <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/blog'>Pages</Link> </li>
+        <li className='font-medium font-inter text-[16px] text-white hover:text-main duration-150'><Link to='/contact'>Contact</Link> </li> 
       </ul>
         </div>
       )}
@@ -37,10 +37,10 @@ const Nav_bar = () => {
         <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/'>Home</Link> </li>
         <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/about'>About</Link> </li>
         <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/'>Topic</Link> </li>
-        <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/'>Post</Link> </li>
-        <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/'>Feature</Link> </li>
-        <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/'>Pages</Link> </li>
-        <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/'>Contact</Link> </li>
+        <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/post'>Post</Link> </li>
+        <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/author'>Author</Link> </li>
+        <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/blog'>Pages</Link> </li>
+        <li className='font-medium font-inter text-[16px] text-black hover:text-main duration-150'><Link to='/contact'>Contact</Link> </li>
        
       </ul>
       <Flex className={`items-center gap-10`}>

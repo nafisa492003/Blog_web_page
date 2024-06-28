@@ -1,5 +1,4 @@
 import React from "react";
-import banner_pick from "../assets/banner_img.png";
 import overlay_img from "../assets/Image_one.png";
 import Flex from "./Flex";
 import { GoDotFill } from "react-icons/go";

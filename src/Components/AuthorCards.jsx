@@ -58,7 +58,7 @@ const AuthorCards = () => {
         <span className='font-normal font-prompt text-[14px]'>75k Follower</span>
        </Flex>
        <Flex className="items-center justify-center gap-2">
-              <Link to='/author' className="font-medium font-prompt text-[14px] lg:text-[16px] text-main inline-block">
+              <Link to='/authordetails' className="font-medium font-prompt text-[14px] lg:text-[16px] text-main inline-block">
                 View Details
               </Link>
               <FaArrowRightLong className="text-[14px] lg:text-[16px] text-main" />
